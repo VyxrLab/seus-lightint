@@ -1,6 +1,7 @@
 import BestSeller from "../components/BestSeller";
 import CategorySection from "../components/CategorySection";
 import CTABanner from "../components/CTABanner";
+import CollectionSection from "../components/CollectionSection";
 import HeroBanner from "../components/HeroBanner";
 import OurBrandValues from "../components/OurBrandValues";
 
@@ -13,6 +14,7 @@ const Home = () => {
       <BestSeller />
       <OurBrandValues />
       <CTABanner />
+      <CollectionSection />
     </>
   );
 };
