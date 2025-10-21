@@ -11,7 +11,7 @@ html.lenis, html.lenis body {  height: auto;}
   --font-inter: "Inter", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
   --font-playfair: "Playfair Display", serif;
-  
+
   --color-bgreen: #5E8E3E;
   --color-cblue: #506dfe;
   --color-lightgreen: #F3FDF2;
@@ -59,3 +59,5 @@ html.lenis, html.lenis body {  height: auto;}
   --breakpoint-desktop: 1024px;
   --breakpoint-desktops: 768px;
 }
+
+.btn { @apply px-6 py-3 text-white font-semibold rounded-lg border border-stone-600 transition-all duration-300 }
