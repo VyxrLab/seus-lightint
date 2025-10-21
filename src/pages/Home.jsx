@@ -1,10 +1,10 @@
-import Hero from "../components/Hero";
+import HeroBanner from "../components/HeroBanner";
 
 const Home = () => {
 
   return (
     <>
-      <Hero />
+      <HeroBanner />
     </>
   );
 };
