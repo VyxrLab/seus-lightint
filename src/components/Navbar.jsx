@@ -82,7 +82,7 @@ export default function Navbar() {
       </div>
 
       {/* --- Main Navbar --- */}
-      <nav onMouseLeave={handleLeave}
+      <nav 
         className={`h-full flex justify-between items-center px-6 md:px-12 py-4 transition-all duration-300 relative ${
           isHovered
             ? "bg-white text-black h-full items-start"
@@ -106,7 +106,7 @@ export default function Navbar() {
               className="relative group"
               onMouseEnter={() => handleEnter(item.name)}
             >
-              <div
+              <div onMouseLeave={handleLeave}
                 className={`flex items-center space-x-1 cursor-pointer transition-colors duration-200 ${
                   isHovered
                     ? "text-black hover:text-amber-500"

@@ -1,3 +1,4 @@
+import BestSeller from "../components/BestSeller";
 import CategorySection from "../components/CategorySection";
 import CollectionSection from "../components/CollectionSection";
 import HeroBanner from "../components/HeroBanner";
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <>
       <HeroBanner />
+      <BestSeller />
       <CategorySection />
       <OurBrandValues />
       <CollectionSection />
