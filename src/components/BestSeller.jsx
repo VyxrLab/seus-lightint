@@ -194,7 +194,7 @@ const ProductCard = ({ product }) => {
 
 const BestSeller = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-4 sm:p-8 font-sans">
+    <div className="min-h-screen p-4 sm:p-8 font-sans">
       
       {/* --- Header Section (Matching Image Text) --- */}
       <div className="text-center mb-10 mt-4">

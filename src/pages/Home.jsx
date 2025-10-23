@@ -1,5 +1,6 @@
 import BestSeller from "../components/BestSeller";
 import CategorySection from "../components/CategorySection";
+import CTABanner from "../components/CTABanner";
 import CollectionSection from "../components/CollectionSection";
 import CustomerReviews from "../components/CustomerReviews";
 import HeroBanner from "../components/HeroBanner";
@@ -10,9 +11,10 @@ const Home = () => {
   return (
     <>
       <HeroBanner />
-      <BestSeller />
       <CategorySection />
+      <BestSeller />
       <OurBrandValues />
+      <CTABanner />
       <CollectionSection />
       <CustomerReviews />
     </>
