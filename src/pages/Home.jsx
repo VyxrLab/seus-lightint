@@ -1,4 +1,5 @@
 import CategorySection from "../components/CategorySection";
+import CollectionSection from "../components/CollectionSection";
 import HeroBanner from "../components/HeroBanner";
 import OurBrandValues from "../components/OurBrandValues";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroBanner />
       <CategorySection />
       <OurBrandValues />
+      <CollectionSection />
     </>
   );
 };
