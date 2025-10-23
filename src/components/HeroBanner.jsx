@@ -15,11 +15,12 @@ const HeroBanner = () => {
       <div className="relative z-10 max-w-5xl px-6 md:px-12 text-left">
         {/* Main Heading */}
         <h1 className="text-4xl md:text-7xl font-semibold text-white leading-tight">
-          Modern <br /> <i className="font-normal">Chandeliers</i>
+         <span className="font-[Inter] tracking-[-0.02em]">Modern</span> <br /> 
+          <i className="font-[Playfair_Display] font-normal tracking-[-0.04em]">Chandeliers</i>
         </h1>
 
         {/* Description */}
-        <p className="mt-4 text-lg md:text-sm text-gray-200 max-w-xs">
+        <p className="font-[Inter] tracking-[-0.03em] mt-4 text-lg md:text-sm text-gray-200 max-w-xs">
           Shop modern light fixtures: chandeliers, pendants, ceiling lights and wall sconces with clean profiles and steady, dimmable output. Adjustable drops, multiple finishes, and smart-ready options.  
         </p>
 
