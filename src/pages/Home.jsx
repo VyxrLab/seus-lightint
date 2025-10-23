@@ -13,10 +13,10 @@ const Home = () => {
       <HeroBanner />
       <CategorySection />
       <BestSeller />
-      <OurBrandValues />
-      <CTABanner />
       <CollectionSection />
+      <OurBrandValues />
       <CustomerReviews />
+      <CTABanner />
     </>
   );
 };
