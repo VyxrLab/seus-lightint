@@ -1,6 +1,7 @@
 import BestSeller from "../components/BestSeller";
 import CategorySection from "../components/CategorySection";
 import CollectionSection from "../components/CollectionSection";
+import CustomerReviews from "../components/CustomerReviews";
 import HeroBanner from "../components/HeroBanner";
 import OurBrandValues from "../components/OurBrandValues";
 
@@ -13,6 +14,7 @@ const Home = () => {
       <CategorySection />
       <OurBrandValues />
       <CollectionSection />
+      <CustomerReviews />
     </>
   );
 };
